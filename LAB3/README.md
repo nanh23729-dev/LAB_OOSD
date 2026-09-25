@@ -23,7 +23,7 @@ Vẽ biểu đồ lớp phân tích, biểu đồ trạng thái (PhieuDatPhong, 
 Thiết kế cơ sở dữ liệu SQL Server ( Database/QuanLyKhachSan.sql) với khóa chính, khóa ngoại, buộc CHECK/UNIQUE cho toàn bộ dịch vụ.
 Cài đặt ứng dụng WinForms (C#, .NET Framework 4.7.2) theo kiến ​​trúc UI → Service → Data → SQL Server, gồm 7 Form: FrmMain, FrmDanhMuc, FrmPhongTienNghi, FrmDatPhong, FrmDichVu, FrmTraPhong, FrmThongKe.
 Thử nghiệm các quy tắc nghiệp vụ: sức chứa phòng, sao chép lịch đặt phòng, một thiết bị/1 phòng/1 ngày, cộng dịch vụ cùng ngày, hóa đơn nhiều phương thức thanh toán.
-## 2. 📁 Cấu trúc thư mục
+2.  Cấu trúc thư mục
 
 ```text
 LAB3/
