@@ -1,10 +1,13 @@
-LAB 3 – Hệ thống Quản lý Khách sạn
-Họ tên: Nguyễn Hoàng Anh
-MSSV: 1250080006
-Lớp: 12_DH_CNPM1
+# 🏨 LAB 3 – HỆ THỐNG QUẢN LÝ KHÁCH SẠN
+
+> **Họ tên:** Nguyễn Hoàng Anh  
+> **MSSV:** 1250080006  
+> **Lớp:** 12_DH_CNPM1
 
 
-Tên bài Lab: Bài 3 – Hệ thống Quản lý Khách sạn (Use Case, biểu đồ lớp, biểu đồ trạng thái, biểu đồ tuần tự, Cơ sở dữ liệu SQL Server, WinForms C#)
+## 📌 Tên bài Lab
+
+**Bài 3 – Hệ thống Quản lý Khách sạn** (Use Case, biểu đồ lớp, biểu đồ trạng thái, biểu đồ tuần tự, Cơ sở dữ liệu SQL Server, WinForms C#)
 Môi trường / phiên bản:
 Visual Studio 2022
 .NET Framework 4.7.2
@@ -13,8 +16,6 @@ SQL Server LocalDB (MSSQLLocalDB) / SQL Server Express
 Hệ điều hành: Windows 10/11
 Thực thi video (nếu được yêu cầu)
 
-Dán link video demo tại đây trước khi đọc lại phần còn lại (nếu thí sinh yêu cầu).
-
 1. Nội dung đã thực hiện
 Khảo sát nghiệp vụ khách sạn: khu vực – phòng – tiện nghi, đặt/nhận phòng, sử dụng dịch vụ, trả phòng – đền bù – hóa đơn – thanh toán.
 Vẽ biểu đồ Use Case tổng quát và các Use Case phân rã (Quản lý phòng - tiện nghi, Đặt/nhận phòng, Trả phòng - thanh toán, Thống kê).
@@ -22,27 +23,55 @@ Vẽ biểu đồ lớp phân tích, biểu đồ trạng thái (PhieuDatPhong, 
 Thiết kế cơ sở dữ liệu SQL Server ( Database/QuanLyKhachSan.sql) với khóa chính, khóa ngoại, buộc CHECK/UNIQUE cho toàn bộ dịch vụ.
 Cài đặt ứng dụng WinForms (C#, .NET Framework 4.7.2) theo kiến ​​trúc UI → Service → Data → SQL Server, gồm 7 Form: FrmMain, FrmDanhMuc, FrmPhongTienNghi, FrmDatPhong, FrmDichVu, FrmTraPhong, FrmThongKe.
 Thử nghiệm các quy tắc nghiệp vụ: sức chứa phòng, sao chép lịch đặt phòng, một thiết bị/1 phòng/1 ngày, cộng dịch vụ cùng ngày, hóa đơn nhiều phương thức thanh toán.
-2. Cấu trúc thư mục
+2. Cấu trúc thư mục 
 LAB3/
+│
 ├── README.md
-├── BaoCao_LAB3.docx          # báo cáo Word: giao diện + CSDL chụp từ máy cá nhân
-├── UML/                      # (thêm) file .drawio / hình xuất từ draw.io
+│
+├── BaoCao_LAB3.docx
+│   └── Báo cáo Word: giao diện + CSDL chụp từ máy cá nhân
+│
+├── UML/
+│   └── File `.drawio` và hình xuất từ draw.io
+│
 ├── Database/
-│   └── QuanLyKhachSan.sql    # script tạo CSDL + dữ liệu mẫu
-└── QuanLyKhachSan/           # solution Visual Studio 2022
+│   └── QuanLyKhachSan.sql
+│       └── Script tạo CSDL + dữ liệu mẫu
+│
+└── QuanLyKhachSan/
     ├── App.config
     ├── Program.cs
-    ├── Data/Db.cs
-    ├── Models/ (KetQuaXuLy, PhongDatItem, DenBuItem)
-    ├── Services/ (DanhMucService, PhongTienNghiService, DatPhongService,
-    │              DichVuService, TraPhongService, ThongKeService)
-    └── Forms/ (FrmMain, FrmDanhMuc, FrmPhongTienNghi, FrmDatPhong,
-                FrmDichVu, FrmTraPhong, FrmThongKe)
-3. Kết quả
+    │
+    ├── Data/
+    │   └── Db.cs
+    │
+    ├── Models/
+    │   ├── KetQuaXuLy.cs
+    │   ├── PhongDatItem.cs
+    │   └── DenBuItem.cs
+    │
+    ├── Services/
+    │   ├── DanhMucService.cs
+    │   ├── PhongTienNghiService.cs
+    │   ├── DatPhongService.cs
+    │   ├── DichVuService.cs
+    │   ├── TraPhongService.cs
+    │   └── ThongKeService.cs
+    │
+    └── Forms/
+        ├── FrmMain.cs
+        ├── FrmDanhMuc.cs
+        ├── FrmPhongTienNghi.cs
+        ├── FrmDatPhong.cs
+        ├── FrmDichVu.cs
+        ├── FrmTraPhong.cs
+        └── FrmThongKe.cs
+```
+4. Kết quả
 Ứng dụng đã được chạy, kết nối cơ sở dữ liệu LocalDB đã thành công.
 Quy tắc nghiệp vụ được kiểm tra theo trường hợp thử nghiệm trong bảng báo cáo Word (sức chứa, trùng lặp lịch, một thiết bị/1 phòng/1 ngày, cộng dồn dịch vụ, hóa đơn nhiều phương thức thanh toán...).
 Ảnh chụp giao diện thực tế và cơ sở dữ liệu thực tế: xem BaoCao_LAB3.docx.
-4. Lỗi phải và cách giải quyết
+5. Lỗi phải và cách giải quyết
 
 Điền lại lỗi bạn thực hiện khi làm, ví dụ mẫu bên dưới — sửa cho máy bạn khớp:
 
