@@ -1,0 +1,9 @@
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e-Shopping.csproj.AssemblyReference.cache
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e_Shopping.Properties.Resources.resources
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e-Shopping.csproj.GenerateResource.cache
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e-Shopping.csproj.CoreCompileInputs.cache
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\bin\Debug\HETHONG_e-Shopping.exe.config
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\bin\Debug\HETHONG_e-Shopping.exe
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\bin\Debug\HETHONG_e-Shopping.pdb
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e-Shopping.exe
+C:\Users\Precision\LAB_OOSD\LAB4\HETHONG_e-Shopping\HETHONG_e-Shopping\obj\Debug\HETHONG_e-Shopping.pdb
