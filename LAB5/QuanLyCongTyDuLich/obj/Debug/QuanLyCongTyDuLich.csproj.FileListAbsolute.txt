@@ -1,0 +1,7 @@
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe.config
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.pdb
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.AssemblyReference.cache
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.CoreCompileInputs.cache
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.exe
+C:\Users\Precision\LAB_OOSD\LAB5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.pdb

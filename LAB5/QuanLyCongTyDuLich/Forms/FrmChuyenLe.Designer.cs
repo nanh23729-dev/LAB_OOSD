@@ -1,0 +1,207 @@
+﻿namespace QuanLyCongTyDuLich.Forms
+{
+    partial class FrmChuyenLe
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null)) components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.lbl01 = new System.Windows.Forms.Label();
+            this.txtMa = new System.Windows.Forms.TextBox();
+            this.lbl02 = new System.Windows.Forms.Label();
+            this.cboTour = new System.Windows.Forms.ComboBox();
+            this.lbl03 = new System.Windows.Forms.Label();
+            this.dtDi = new System.Windows.Forms.DateTimePicker();
+            this.lbl04 = new System.Windows.Forms.Label();
+            this.lblNgayVe = new System.Windows.Forms.Label();
+            this.lbl05 = new System.Windows.Forms.Label();
+            this.txtDon = new System.Windows.Forms.TextBox();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnDongDK = new System.Windows.Forms.Button();
+            this.dgv = new System.Windows.Forms.DataGridView();
+            this.btnDong = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lbl01
+            // 
+            this.lbl01.Name = "lbl01";
+            this.lbl01.Location = new System.Drawing.Point(15, 18);
+            this.lbl01.AutoSize = true;
+            this.lbl01.Text = "Mã chuyến:";
+            this.lbl01.TabIndex = 0;
+            // 
+            // txtMa
+            // 
+            this.txtMa.Name = "txtMa";
+            this.txtMa.Location = new System.Drawing.Point(110, 15);
+            this.txtMa.Size = new System.Drawing.Size(130, 23);
+            this.txtMa.TabIndex = 1;
+            // 
+            // lbl02
+            // 
+            this.lbl02.Name = "lbl02";
+            this.lbl02.Location = new System.Drawing.Point(300, 18);
+            this.lbl02.AutoSize = true;
+            this.lbl02.Text = "Tour:";
+            this.lbl02.TabIndex = 2;
+            // 
+            // cboTour
+            // 
+            this.cboTour.Name = "cboTour";
+            this.cboTour.Location = new System.Drawing.Point(345, 15);
+            this.cboTour.Size = new System.Drawing.Size(330, 23);
+            this.cboTour.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboTour.FormattingEnabled = true;
+            this.cboTour.TabIndex = 3;
+            this.cboTour.SelectedIndexChanged += new System.EventHandler(this.TinhNgayVe);
+            // 
+            // lbl03
+            // 
+            this.lbl03.Name = "lbl03";
+            this.lbl03.Location = new System.Drawing.Point(15, 53);
+            this.lbl03.AutoSize = true;
+            this.lbl03.Text = "Ngày đi:";
+            this.lbl03.TabIndex = 4;
+            // 
+            // dtDi
+            // 
+            this.dtDi.Name = "dtDi";
+            this.dtDi.Location = new System.Drawing.Point(110, 50);
+            this.dtDi.Size = new System.Drawing.Size(130, 23);
+            this.dtDi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtDi.TabIndex = 5;
+            this.dtDi.ValueChanged += new System.EventHandler(this.TinhNgayVe);
+            // 
+            // lbl04
+            // 
+            this.lbl04.Name = "lbl04";
+            this.lbl04.Location = new System.Drawing.Point(300, 53);
+            this.lbl04.AutoSize = true;
+            this.lbl04.Text = "Ngày về:";
+            this.lbl04.TabIndex = 6;
+            // 
+            // lblNgayVe
+            // 
+            this.lblNgayVe.Name = "lblNgayVe";
+            this.lblNgayVe.Location = new System.Drawing.Point(365, 53);
+            this.lblNgayVe.AutoSize = true;
+            this.lblNgayVe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNgayVe.Text = "-";
+            this.lblNgayVe.TabIndex = 7;
+            // 
+            // lbl05
+            // 
+            this.lbl05.Name = "lbl05";
+            this.lbl05.Location = new System.Drawing.Point(15, 88);
+            this.lbl05.AutoSize = true;
+            this.lbl05.Text = "Địa điểm đón:";
+            this.lbl05.TabIndex = 8;
+            // 
+            // txtDon
+            // 
+            this.txtDon.Name = "txtDon";
+            this.txtDon.Location = new System.Drawing.Point(110, 85);
+            this.txtDon.Size = new System.Drawing.Size(480, 23);
+            this.txtDon.TabIndex = 9;
+            // 
+            // btnThem
+            // 
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Location = new System.Drawing.Point(640, 80);
+            this.btnThem.Size = new System.Drawing.Size(110, 32);
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Text = "Tạo chuyến";
+            this.btnThem.TabIndex = 10;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnDongDK
+            // 
+            this.btnDongDK.Name = "btnDongDK";
+            this.btnDongDK.Location = new System.Drawing.Point(760, 80);
+            this.btnDongDK.Size = new System.Drawing.Size(120, 32);
+            this.btnDongDK.UseVisualStyleBackColor = true;
+            this.btnDongDK.Text = "Đóng đăng ký";
+            this.btnDongDK.TabIndex = 11;
+            this.btnDongDK.Click += new System.EventHandler(this.btnDongDK_Click);
+            // 
+            // dgv
+            // 
+            this.dgv.Name = "dgv";
+            this.dgv.Location = new System.Drawing.Point(15, 125);
+            this.dgv.Size = new System.Drawing.Size(865, 380);
+            this.dgv.AllowUserToAddRows = false;
+            this.dgv.AllowUserToDeleteRows = false;
+            this.dgv.ReadOnly = true;
+            this.dgv.MultiSelect = false;
+            this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.dgv.TabIndex = 12;
+            // 
+            // btnDong
+            // 
+            this.btnDong.Name = "btnDong";
+            this.btnDong.Location = new System.Drawing.Point(780, 515);
+            this.btnDong.Size = new System.Drawing.Size(100, 32);
+            this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Text = "Đóng";
+            this.btnDong.TabIndex = 13;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
+            this.Controls.Add(this.lbl01);
+            this.Controls.Add(this.txtMa);
+            this.Controls.Add(this.lbl02);
+            this.Controls.Add(this.cboTour);
+            this.Controls.Add(this.lbl03);
+            this.Controls.Add(this.dtDi);
+            this.Controls.Add(this.lbl04);
+            this.Controls.Add(this.lblNgayVe);
+            this.Controls.Add(this.lbl05);
+            this.Controls.Add(this.txtDon);
+            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.btnDongDK);
+            this.Controls.Add(this.dgv);
+            this.Controls.Add(this.btnDong);
+            // 
+            // FrmChuyenLe
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(900, 560);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Name = "FrmChuyenLe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Lịch chuyến khách lẻ";
+            this.Load += new System.EventHandler(this.FrmChuyenLe_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lbl01;
+        private System.Windows.Forms.TextBox txtMa;
+        private System.Windows.Forms.Label lbl02;
+        private System.Windows.Forms.ComboBox cboTour;
+        private System.Windows.Forms.Label lbl03;
+        private System.Windows.Forms.DateTimePicker dtDi;
+        private System.Windows.Forms.Label lbl04;
+        private System.Windows.Forms.Label lblNgayVe;
+        private System.Windows.Forms.Label lbl05;
+        private System.Windows.Forms.TextBox txtDon;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnDongDK;
+        private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.Button btnDong;
+    }
+}
