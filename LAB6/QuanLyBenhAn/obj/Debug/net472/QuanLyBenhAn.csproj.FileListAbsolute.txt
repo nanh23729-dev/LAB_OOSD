@@ -1,0 +1,11 @@
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\bin\Debug\net472\QuanLyBenhAn.exe.config
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\bin\Debug\net472\QuanLyBenhAn.exe
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\bin\Debug\net472\QuanLyBenhAn.pdb
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.csproj.AssemblyReference.cache
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.AssemblyInfoInputs.cache
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.AssemblyInfo.cs
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.csproj.CoreCompileInputs.cache
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.sourcelink.json
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.exe
+C:\Users\Precision\LAB_OOSD\LAB6\QuanLyBenhAn\obj\Debug\net472\QuanLyBenhAn.pdb
