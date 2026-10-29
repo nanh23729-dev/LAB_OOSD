@@ -1,0 +1,19 @@
+digraph G {
+  graph [fontname="Liberation Serif", bgcolor="white", pad=0.3, nodesep=0.25, ranksep=0.8, splines=polyline , rankdir=TB];
+  node  [fontname="Liberation Serif", fontsize=11, shape=plaintext, color="#990033"];
+  edge  [fontname="Liberation Serif", fontsize=10, color="#990033", fontcolor="#111111", arrowsize=0.8];
+  node [shape=box, style="rounded,filled", fillcolor="#FFFFCC", fontsize=11, margin="0.12,0.06"];
+  FrmMain [label=<<B>FrmMain</B><BR/><FONT POINT-SIZE="9.5">Trang chủ - điều hướng</FONT>>];
+  FrmDanhMuc [label=<<B>FrmDanhMuc</B><BR/><FONT POINT-SIZE="9.5">Phòng ban - Chức vụ - Ca</FONT>>];
+  FrmNhanVien [label=<<B>FrmNhanVien</B><BR/><FONT POINT-SIZE="9.5">Hồ sơ - Tuyển dụng<BR/>Hợp đồng - Bảo hiểm</FONT>>];
+  FrmQuyetDinh [label=<<B>FrmQuyetDinh</B><BR/><FONT POINT-SIZE="9.5">QĐ lương - QĐ chức vụ</FONT>>];
+  FrmChamCong [label=<<B>FrmChamCong</B><BR/><FONT POINT-SIZE="9.5">Phân công tuần - Chấm công<BR/>Phụ trội</FONT>>];
+  FrmKhenThuongKyLuat [label=<<B>FrmKhenThuongKyLuat</B><BR/><FONT POINT-SIZE="9.5">Khen thưởng - Kỷ luật<BR/>Phiếu chi / Phiếu thu</FONT>>];
+  FrmBangLuong [label=<<B>FrmBangLuong</B><BR/><FONT POINT-SIZE="9.5">Tính &amp; xem bảng lương</FONT>>];
+  FrmMain -> FrmDanhMuc [arrowhead=vee, label=" ShowDialog", fontsize=8];
+  FrmMain -> FrmNhanVien [arrowhead=vee, label=" ShowDialog", fontsize=8];
+  FrmMain -> FrmQuyetDinh [arrowhead=vee, label=" ShowDialog", fontsize=8];
+  FrmMain -> FrmChamCong [arrowhead=vee, label=" ShowDialog", fontsize=8];
+  FrmMain -> FrmKhenThuongKyLuat [arrowhead=vee, label=" ShowDialog", fontsize=8];
+  FrmMain -> FrmBangLuong [arrowhead=vee, label=" ShowDialog", fontsize=8];
+}

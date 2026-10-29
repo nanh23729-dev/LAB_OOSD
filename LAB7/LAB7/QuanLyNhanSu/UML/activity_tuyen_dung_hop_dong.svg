@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="1770" viewBox="0 0 1260 1770" font-family="Liberation Serif"><defs>
+<marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L10,5 L0,10" fill="none" stroke="#990033" stroke-width="1.4"/></marker>
+<marker id="fill" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#990033" stroke="#990033"/></marker>
+<marker id="tri" markerWidth="16" markerHeight="16" refX="13" refY="7" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L13,7 L0,14 z" fill="white" stroke="#990033" stroke-width="1.3"/></marker>
+</defs><rect width="100%" height="100%" fill="white"/><rect x="10" y="10" width="310" height="1750" fill="white" stroke="#990033" stroke-width="1.3"/>
+<rect x="10" y="10" width="310" height="36" fill="#F3E3E8" stroke="#990033" stroke-width="1.3"/>
+<text x="165.0" y="34.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">TRƯỞNG ĐƠN VỊ</text>
+<rect x="320" y="10" width="310" height="1750" fill="white" stroke="#990033" stroke-width="1.3"/>
+<rect x="320" y="10" width="310" height="36" fill="#F3E3E8" stroke="#990033" stroke-width="1.3"/>
+<text x="475.0" y="34.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">PHÒNG TỔ CHỨC - HÀNH CHÍNH</text>
+<rect x="630" y="10" width="310" height="1750" fill="white" stroke="#990033" stroke-width="1.3"/>
+<rect x="630" y="10" width="310" height="36" fill="#F3E3E8" stroke="#990033" stroke-width="1.3"/>
+<text x="785.0" y="34.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">GIÁM ĐỐC</text>
+<rect x="940" y="10" width="310" height="1750" fill="white" stroke="#990033" stroke-width="1.3"/>
+<rect x="940" y="10" width="310" height="36" fill="#F3E3E8" stroke="#990033" stroke-width="1.3"/>
+<text x="1095.0" y="34.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">HỆ THỐNG</text>
+<circle cx="165.0" cy="80" r="11" fill="black"/>
+<rect x="47.0" y="122.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="165.0" y="142.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Gửi nhu cầu tuyển dụng</text>
+<text x="165.0" y="157.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(vị trí, số lượng)</text>
+<rect x="357.0" y="122.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="475.0" y="142.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Tiếp nhận hồ sơ ứng viên,</text>
+<text x="475.0" y="157.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">nhập thông tin nhân viên</text>
+<rect x="977.0" y="122.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="142.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Kiểm tra CCCD 12 số,</text>
+<text x="1095.0" y="157.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">tuổi &gt;= 18, trùng mã</text>
+<path d="M1095.0,206.0 l60,26 l-60,26 l-60,-26 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="237.0" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Hợp lệ?</text>
+<rect x="977.0" y="297.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="317.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lưu hồ sơ</text>
+<text x="1095.0" y="332.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Trạng thái = "Hồ sơ"</text>
+<rect x="340.0" y="295.0" width="270" height="50" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="475.0" y="317.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập QĐ tuyển dụng: phòng ban,</text>
+<text x="475.0" y="332.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">thời gian, lương thử việc, điều khoản</text>
+<rect x="667.0" y="387.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="785.0" y="407.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ký quyết định</text>
+<text x="785.0" y="422.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">tuyển dụng</text>
+<rect x="977.0" y="387.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="407.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Kiểm tra ngày thử việc,</text>
+<text x="1095.0" y="422.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">lương thử việc &gt; 0</text>
+<path d="M1095.0,471.0 l60,26 l-60,26 l-60,-26 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="502.0" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Hợp lệ?</text>
+<rect x="977.0" y="562.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="582.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lưu QĐ tuyển dụng</text>
+<text x="1095.0" y="597.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">NV -&gt; "Thử việc"</text>
+<rect x="47.0" y="562.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="165.0" y="582.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Theo dõi, đánh giá</text>
+<text x="165.0" y="597.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">kết quả thử việc</text>
+<path d="M165.0,654.0 l60,26 l-60,26 l-60,-26 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="165.0" y="685.0" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Đạt?</text>
+<rect x="977.0" y="657.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="677.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ghi nhận "Không đạt"</text>
+<text x="1095.0" y="692.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">NV -&gt; "Nghỉ việc"</text>
+<rect x="977.0" y="792.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="820.0" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ghi nhận kết quả "Đạt"</text>
+<rect x="357.0" y="877.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="475.0" y="897.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập hợp đồng lao động</text>
+<text x="475.0" y="912.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(dài hạn / ngắn hạn)</text>
+<rect x="667.0" y="962.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="785.0" y="982.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ký hợp đồng</text>
+<text x="785.0" y="997.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">lao động</text>
+<rect x="977.0" y="962.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="982.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Kiểm tra: đã hết thử việc,</text>
+<text x="1095.0" y="997.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">kết quả Đạt, ngày HĐ hợp lệ</text>
+<path d="M1095.0,1049.0 l60,26 l-60,26 l-60,-26 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="1080.0" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Hợp lệ?</text>
+<rect x="695.0" y="1052.0" width="180" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="785.0" y="1072.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Hủy giao dịch</text>
+<text x="785.0" y="1087.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(rollback)</text>
+<rect x="977.0" y="1142.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="1162.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lưu hợp đồng</text>
+<text x="1095.0" y="1177.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">NV -&gt; "Chính thức"</text>
+<rect x="345.0" y="1232.0" width="260" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="475.0" y="1252.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập QĐ lương (LCB, phụ cấp)</text>
+<text x="475.0" y="1267.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">và QĐ chức vụ (PC chức vụ)</text>
+<rect x="667.0" y="1322.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="785.0" y="1342.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ký QĐ lương,</text>
+<text x="785.0" y="1357.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">QĐ chức vụ</text>
+<rect x="977.0" y="1322.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="1342.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lưu QĐ lương, chức vụ</text>
+<text x="1095.0" y="1357.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(hiệu lực từ ngày ký HĐ)</text>
+<path d="M1095.0,1409.0 l60,26 l-60,26 l-60,-26 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="1440.0" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">HĐ dài hạn?</text>
+<rect x="357.0" y="1412.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="475.0" y="1432.2" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập hồ sơ BHXH - BHYT</text>
+<text x="475.0" y="1447.8" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(số sổ, số thẻ, tỷ lệ)</text>
+<rect x="977.0" y="1507.0" width="236" height="46" rx="20" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1095.0" y="1535.0" font-size="13" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lưu hồ sơ bảo hiểm</text>
+<path d="M1095.0,1597.0 l18,18 l-18,18 l-18,-18 z" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<circle cx="1095.0" cy="1700" r="13" fill="white" stroke="black" stroke-width="2"/><circle cx="1095.0" cy="1700" r="8" fill="black"/>
+<circle cx="1095.0" cy="760" r="11" fill="white" stroke="black" stroke-width="2"/><circle cx="1095.0" cy="760" r="6.5" fill="black"/>
+<path d="M165.0,91.0 L165.0,122.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M283.0,145.0 L357.0,145.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M593.0,145.0 L977.0,145.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1095.0,168.0 L1095.0,206.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1035.0,232.0 L475.0,232.0 L475.0,168.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1025.0" y="224.0" font-size="12" text-anchor="end" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[không] Nhập lại</text>
+<path d="M1095.0,258.0 L1095.0,297.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1103.0" y="278.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[có]</text>
+<path d="M977.0,320.0 L610.0,320.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M475.0,345.0 L475.0,410.0 L667.0,410.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M903.0,410.0 L977.0,410.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1095.0,433.0 L1095.0,471.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1035.0,497.0 L535.0,497.0 L535.0,345.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1025.0" y="489.0" font-size="12" text-anchor="end" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[không] Sửa QĐ</text>
+<path d="M1095.0,523.0 L1095.0,562.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1103.0" y="543.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[có]</text>
+<path d="M977.0,585.0 L283.0,585.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M165.0,608.0 L165.0,654.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M225.0,680.0 L977.0,680.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="235.0" y="672.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[không đạt]</text>
+<path d="M1095.0,703.0 L1095.0,747.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M165.0,706.0 L165.0,815.0 L977.0,815.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="173.0" y="735.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[đạt]</text>
+<path d="M1095.0,838.0 L1095.0,860.0 L475.0,860.0 L475.0,877.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M593.0,900.0 L785.0,900.0 L785.0,962.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M903.0,985.0 L977.0,985.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1095.0,1008.0 L1095.0,1049.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1035.0,1075.0 L875.0,1075.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1025.0" y="1067.0" font-size="12" text-anchor="end" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[sai]</text>
+<path d="M695.0,1075.0 L475.0,1075.0 L475.0,923.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="483.0" y="1062.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập lại HĐ</text>
+<path d="M1095.0,1101.0 L1095.0,1142.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1103.0" y="1121.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[đúng]</text>
+<path d="M1095.0,1188.0 L1095.0,1210.0 L475.0,1210.0 L475.0,1232.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M475.0,1278.0 L475.0,1345.0 L667.0,1345.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M903.0,1345.0 L977.0,1345.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1095.0,1368.0 L1095.0,1409.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1035.0,1435.0 L593.0,1435.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1025.0" y="1427.0" font-size="12" text-anchor="end" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[có]</text>
+<path d="M475.0,1458.0 L475.0,1530.0 L977.0,1530.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1095.0,1553.0 L1095.0,1597.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M1155.0,1435.0 L1215.0,1435.0 L1215.0,1615.0 L1113.0,1615.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<text x="1161.0" y="1427.0" font-size="12" text-anchor="start" fill="#222" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[không]</text>
+<path d="M1095.0,1633.0 L1095.0,1687.0" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<path d="M30,1110 h236 l14,14 v76 h-250 z" fill="#FFFFF0" stroke="#990033" stroke-width="1.2"/>
+<path d="M266,1110 v14 h14" fill="none" stroke="#990033" stroke-width="1.2"/>
+<text x="40.0" y="1132.5" font-size="12.5" text-anchor="start" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">BR: chỉ ký hợp đồng khi đã hết</text>
+<text x="40.0" y="1147.5" font-size="12.5" text-anchor="start" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">thời gian thử việc và kết quả Đạt.</text>
+<text x="40.0" y="1162.5" font-size="12.5" text-anchor="start" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">HĐ dài hạn mới lập BHXH - BHYT;</text>
+<text x="40.0" y="1177.5" font-size="12.5" text-anchor="start" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">BH trích trừ trong bảng lương.</text>
+<line x1="280" y1="1150" x2="350.0" y2="900" stroke="#990033" stroke-dasharray="4,4"/></svg>

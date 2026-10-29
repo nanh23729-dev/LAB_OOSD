@@ -1,0 +1,51 @@
+digraph G {
+  graph [fontname="Liberation Serif", bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.6, splines=true , rankdir=TB];
+  node  [fontname="Liberation Serif", fontsize=11, shape=plaintext, color="#990033"];
+  edge  [fontname="Liberation Serif", fontsize=10, color="#990033", fontcolor="#111111", arrowsize=0.8];
+  PhongBan [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>PhongBan</B></TD></TR></TABLE>>];
+  ChucVu [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>ChucVu</B></TD></TR></TABLE>>];
+  CaLamViec [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>CaLamViec</B></TD></TR></TABLE>>];
+  NhanVien [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>NhanVien</B></TD></TR></TABLE>>];
+  QuyetDinhTuyenDung [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>QuyetDinhTuyenDung</B></TD></TR></TABLE>>];
+  HopDongLaoDong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>HopDongLaoDong</B></TD></TR></TABLE>>];
+  HoSoBaoHiem [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>HoSoBaoHiem</B></TD></TR></TABLE>>];
+  QuyetDinhLuong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>QuyetDinhLuong</B></TD></TR></TABLE>>];
+  QuyetDinhChucVu [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>QuyetDinhChucVu</B></TD></TR></TABLE>>];
+  KeHoachPhanCong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>KeHoachPhanCong</B></TD></TR></TABLE>>];
+  ChiTietPhanCong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>ChiTietPhanCong</B></TD></TR></TABLE>>];
+  BangChamCong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>BangChamCong</B></TD></TR></TABLE>>];
+  ChiTietChamCong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>ChiTietChamCong</B></TD></TR></TABLE>>];
+  PhieuPhuTroi [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>PhieuPhuTroi</B></TD></TR></TABLE>>];
+  ChiTietPhuTroi [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>ChiTietPhuTroi</B></TD></TR></TABLE>>];
+  QuyetDinhKhenThuong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>QuyetDinhKhenThuong</B></TD></TR></TABLE>>];
+  PhieuChiKhenThuong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>PhieuChiKhenThuong</B></TD></TR></TABLE>>];
+  QuyetDinhKyLuat [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>QuyetDinhKyLuat</B></TD></TR></TABLE>>];
+  PhieuThuNopPhat [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>PhieuThuNopPhat</B></TD></TR></TABLE>>];
+  BangLuong [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" COLOR="#990033" BGCOLOR="#FFFFCC"><TR><TD CELLPADDING="7"><B>BangLuong</B></TD></TR></TABLE>>];
+  {rank=same; PhongBan; ChucVu; CaLamViec;}
+  {rank=same; QuyetDinhKhenThuong; QuyetDinhKyLuat; HopDongLaoDong; ChiTietPhanCong; ChiTietChamCong; ChiTietPhuTroi;}
+  PhongBan -> NhanVien [arrowhead=vee, taillabel="0..1", headlabel="0..*", label="thuộc"];
+  NhanVien -> QuyetDinhTuyenDung [arrowhead=vee, taillabel="1", headlabel="0..*", label="được tuyển"];
+  PhongBan -> QuyetDinhTuyenDung [arrowhead=vee, taillabel="1", headlabel="0..*", label="thử việc tại"];
+  QuyetDinhTuyenDung -> HopDongLaoDong [arrowhead=vee, taillabel="1", headlabel="0..1", label="dẫn tới"];
+  HopDongLaoDong -> HoSoBaoHiem [arrowhead=vee, taillabel="1", headlabel="0..1", label="phát sinh"];
+  NhanVien -> QuyetDinhLuong [arrowhead=vee, taillabel="1", headlabel="0..*", label="nhận"];
+  NhanVien -> QuyetDinhChucVu [arrowhead=vee, taillabel="1", headlabel="0..*", label="nhận"];
+  ChucVu -> QuyetDinhChucVu [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  PhongBan -> KeHoachPhanCong [arrowhead=vee, taillabel="1", headlabel="0..*", label="lập"];
+  KeHoachPhanCong -> ChiTietPhanCong [dir=both, arrowtail=diamond, arrowhead=none, taillabel="1", headlabel="1..*", label=""];
+  NhanVien -> ChiTietPhanCong [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  CaLamViec -> ChiTietPhanCong [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  PhongBan -> BangChamCong [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  BangChamCong -> ChiTietChamCong [dir=both, arrowtail=diamond, arrowhead=none, taillabel="1", headlabel="1..*", label=""];
+  NhanVien -> ChiTietChamCong [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  PhieuPhuTroi -> ChiTietPhuTroi [dir=both, arrowtail=diamond, arrowhead=none, taillabel="1", headlabel="1..*", label=""];
+  NhanVien -> ChiTietPhuTroi [arrowhead=vee, taillabel="1", headlabel="0..*", label=""];
+  NhanVien -> QuyetDinhKhenThuong [arrowhead=vee, taillabel="0..1", headlabel="0..*", label="cá nhân"];
+  PhongBan -> QuyetDinhKhenThuong [arrowhead=vee, taillabel="0..1", headlabel="0..*", label="tập thể"];
+  QuyetDinhKhenThuong -> PhieuChiKhenThuong [arrowhead=vee, taillabel="1", headlabel="0..1", label="chi qua"];
+  NhanVien -> QuyetDinhKyLuat [arrowhead=vee, taillabel="0..1", headlabel="0..*", label="cá nhân"];
+  PhongBan -> QuyetDinhKyLuat [arrowhead=vee, taillabel="0..1", headlabel="0..*", label="tập thể"];
+  QuyetDinhKyLuat -> PhieuThuNopPhat [arrowhead=vee, taillabel="1", headlabel="0..1", label="thu qua"];
+  NhanVien -> BangLuong [arrowhead=vee, taillabel="1", headlabel="0..*", label="hưởng"];
+}

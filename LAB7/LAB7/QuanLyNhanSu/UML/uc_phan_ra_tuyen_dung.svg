@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1060" viewBox="0 0 1500 1060" font-family="Liberation Serif"><defs>
+<marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L10,5 L0,10" fill="none" stroke="#990033" stroke-width="1.4"/></marker>
+<marker id="fill" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#990033" stroke="#990033"/></marker>
+<marker id="tri" markerWidth="16" markerHeight="16" refX="13" refY="7" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,0 L13,7 L0,14 z" fill="white" stroke="#990033" stroke-width="1.3"/></marker>
+</defs><rect width="100%" height="100%" fill="white"/><ellipse cx="520" cy="520" rx="190" ry="44" fill="#FFFFCC" stroke="#990033" stroke-width="1.8"/>
+<text x="520.0" y="507.6" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Tiếp nhận nhân viên mới</text>
+<text x="520.0" y="524.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">đến ký hợp đồng chính thức</text>
+<text x="520.0" y="586.0" font-size="12" text-anchor="middle" font-style="italic" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">(from Use Case View)</text>
+<path d="M1035.0,60.0 L661.7,490.7" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="930.5" y="174.6" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="60" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="65.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Tiếp nhận hồ sơ nhân viên mới</text>
+<path d="M1035.0,164.0 L676.3,495.0" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="934.6" y="250.7" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="164" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="169.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập quyết định tuyển dụng</text>
+<path d="M1035.0,268.0 L690.7,500.7" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="938.6" y="327.1" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="268" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="273.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ký duyệt quyết định tuyển dụng</text>
+<path d="M1035.0,372.0 L702.6,507.8" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="941.9" y="404.0" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="372" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="377.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Theo dõi thời gian thử việc</text>
+<path d="M1035.0,476.0 L709.3,516.3" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="943.8" y="481.3" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="476" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="481.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Đánh giá kết quả thử việc</text>
+<path d="M1035.0,580.0 L708.7,525.1" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="943.6" y="558.6" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="580" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="585.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Kết thúc thử việc (không đạt)</text>
+<path d="M1035.0,684.0 L701.0,533.4" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="941.5" y="635.8" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="684" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="689.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Ký hợp đồng lao động</text>
+<path d="M1035.0,788.0 L688.5,540.3" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="938.0" y="712.6" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="788" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="785.5" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập hồ sơ BHXH - BHYT</text>
+<text x="1210.0" y="800.5" font-size="12.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">[HĐ dài hạn]</text>
+<path d="M1035.0,892.0 L674.0,545.8" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="933.9" y="789.1" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="892" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="897.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập quyết định lương</text>
+<path d="M1035.0,996.0 L659.5,549.9" fill="none" stroke="#990033" stroke-width="1.3" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="929.9" y="865.1" font-size="12" text-anchor="middle" fill="#990033" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="1210" cy="996" rx="175" ry="30" fill="#FFFFCC" stroke="#990033" stroke-width="1.4"/>
+<text x="1210.0" y="1001.0" font-size="13.5" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Lập quyết định chức vụ</text>
+<g stroke="#990033" stroke-width="1.6" fill="#FFFFCC"><circle cx="90" cy="210" r="10"/><line x1="90" y1="220" x2="90" y2="246"/><line x1="73" y1="229" x2="107" y2="229"/><line x1="90" y1="246" x2="76" y2="266"/><line x1="90" y1="246" x2="104" y2="266"/></g>
+<text x="90.0" y="286.0" font-size="14" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">NV phòng TC-HC</text>
+<path d="M114.0,232.0 L365.0,494.5" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<g stroke="#990033" stroke-width="1.6" fill="#FFFFCC"><circle cx="90" cy="410" r="10"/><line x1="90" y1="420" x2="90" y2="446"/><line x1="73" y1="429" x2="107" y2="429"/><line x1="90" y1="446" x2="76" y2="466"/><line x1="90" y1="446" x2="104" y2="466"/></g>
+<text x="90.0" y="486.0" font-size="14" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Trưởng đơn vị</text>
+<path d="M114.0,432.0 L334.3,510.7" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<g stroke="#990033" stroke-width="1.6" fill="#FFFFCC"><circle cx="90" cy="610" r="10"/><line x1="90" y1="620" x2="90" y2="646"/><line x1="73" y1="629" x2="107" y2="629"/><line x1="90" y1="646" x2="76" y2="666"/><line x1="90" y1="646" x2="104" y2="666"/></g>
+<text x="90.0" y="686.0" font-size="14" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Giám đốc</text>
+<path d="M114.0,632.0 L336.8,531.7" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/>
+<g stroke="#990033" stroke-width="1.6" fill="#FFFFCC"><circle cx="90" cy="810" r="10"/><line x1="90" y1="820" x2="90" y2="846"/><line x1="73" y1="829" x2="107" y2="829"/><line x1="90" y1="846" x2="76" y2="866"/><line x1="90" y1="846" x2="104" y2="866"/></g>
+<text x="90.0" y="886.0" font-size="14" text-anchor="middle" fill="#000" stroke="white" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Người lao động</text>
+<path d="M114.0,832.0 L369.3,546.8" fill="none" stroke="#990033" stroke-width="1.3" marker-end="url(#open)"/></svg>
