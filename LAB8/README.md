@@ -77,9 +77,5 @@ Kiến trúc 3 lớp **UI → Service → Data**; quy tắc nghiệp vụ nằm 
 - Phòng đến hạn kiểm tra: P501, P502, P801.
 - Danh sách 33 test case ở mục 8 của báo cáo.
 
-## 7. Xem và sửa sơ đồ
 
-Mở file `.drawio` bằng https://app.diagrams.net hoặc draw.io Desktop. `QuanLyCaoOc_Bai4_TatCa.drawio` gồm 7 trang: 3 Class Diagram, Use Case tổng quát, Use Case phân rã, Activity, Sequence.
-
----
 *Sinh viên thực hiện: Nguyễn Hoàng Anh – MSSV 1250080006 – Lớp CNPM1*
