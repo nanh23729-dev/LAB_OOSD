@@ -1,7 +1,0 @@
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.AssemblyReference.cache
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
-C:\Users\Precision\LAB_OOSD\LAB7\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
